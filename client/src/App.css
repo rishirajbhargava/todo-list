@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+:root{
+  --font-family:'Poppins', sans-serif;
+}
+body{
+  font-family: var(--font-family);
+  width: 50%;
+  margin:0 auto;
+}
+
+header{
+  text-align: center;
+}
+
+header h1{
+  font-size: 80px;
+  color:#34495e;
+  font-weight: 500;
+}
+
+.ul_list{
+  padding: 0;
+}
+
+.input{
+  font-size: 20px;
+  color:#434343;
+  width: 100%;
+  border:none;
+  outline: none;
+  border-bottom: 2px solid #34495e;
+  padding: 5px;
+}
+
+.task{
+  background-color: #34495e;
+  padding: 15px;
+  margin:5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task span{
+  color:#ffffff;
+}
+.icon{
+  float:right;
+  margin-right: 20px;
+
+} 
+article{
+  display: grid;
+}
+
+.edit-todo{
+  width:75%;
+  font-family: var(--font-family);
+  font-size:15px;
+  border:none;
+  color:white;
+  background-color: transparent;
+  padding: 5px;
+  outline:none;
+  border-bottom: 1px solid #ccc;
+
+  
+}
+
+.button{
+  margin:0px 10px;
+  padding: 10px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-size: 14px;
+  color:#6c6777;
+  background-color: #fff;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top:15px;
+
+}
+
+.button.selected{
+  color:#fff;
+  background-color: #6c6777;
+  border-radius: 5px;
+}
+.button.clear{
+  float:right;
+  color:white;
+  background-color: #DD0F11;
+}
